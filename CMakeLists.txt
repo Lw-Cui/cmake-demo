@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(CMakeDemo)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-include_directories(header)
+include_directories(Header)
 
 set(GTEST_ROOT ${PROJECT_SOURCE_DIR}/googletest)
 add_subdirectory(googletest)
