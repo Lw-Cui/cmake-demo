@@ -29,7 +29,7 @@ script:
   - ./Interpreter/InterpreterTest
 
 after_success:
-  - coveralls --root .. -e googletest -e "Interpreter/src/test.cpp" -e "GraphicsLib/src/test.cpp"
+  - coveralls --root .. -e googletest -e "Interpreter/src/test.cpp" -e "GraphicsLib/src/test.cpp" -e "build"
 
 notifications:
   email: cui@hellolw.com

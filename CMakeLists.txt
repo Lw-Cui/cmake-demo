@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(CMakeDemo)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fprofile-arcs -ftest-coverage")
 include_directories(Header)
 
 set(GTEST_ROOT ${PROJECT_SOURCE_DIR}/googletest)
