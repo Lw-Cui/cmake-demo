@@ -1,0 +1,13 @@
+language:
+  - cpp
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - ./GraphicsLib/GraphicsLibTest
+  - ./Interpreter/InterpreterTest
+
+notifications:
+  email: cui@hellolw.com
