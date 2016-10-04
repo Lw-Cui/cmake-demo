@@ -1,7 +1,6 @@
 language:
   - cpp
 
-<<<<<<< HEAD
 compiler:
   - clang
 
