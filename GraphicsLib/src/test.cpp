@@ -1,4 +1,6 @@
-//
-// Created by 崔利伟 on 2016/10/4.
-//
+#include <internal.h>
+#include <gtest/gtest.h>
 
+TEST(GraphicsLib, SimpleTest) {
+    ASSERT_EQ(func(), 0);
+}

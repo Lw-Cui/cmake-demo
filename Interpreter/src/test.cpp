@@ -1,4 +1,6 @@
-//
-// Created by 崔利伟 on 2016/10/4.
-//
+#include <interpreter.h>
+#include <gtest/gtest.h>
 
+TEST(Interpreter, SimpleTest) {
+    ASSERT_EQ(foo(), 5);
+}
