@@ -17,6 +17,7 @@ before_install:
 
 install:
   - clang++ --version
+  - sudo apt-get install libsfml-dev
 
 script:
   - $CXX --version
