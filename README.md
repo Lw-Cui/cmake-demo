@@ -1,9 +1,8 @@
+# CMake Demo
+
 [![Build Status](https://travis-ci.org/Lw-Cui/cmake-demo.svg?branch=master)](https://travis-ci.org/Lw-Cui/cmake-demo)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat-square)](../master/LICENSE)
 
-# CMake Demo
-
-## 概要
 
 这是一个使用`CMake`完成项目构建、使用`Google Test`框架进行测试、使用`easylogging++`打印日志、使用`Travis CI`进行持续集成的项目。
 
