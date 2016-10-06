@@ -17,7 +17,6 @@ before_install:
 
 install:
   - clang++ --version
-  - sudo pip install cpp-coveralls
 
 script:
   - $CXX --version
@@ -27,9 +26,6 @@ script:
   - make
   - ./GraphicsLib/GraphicsLibTest
   - ./Interpreter/InterpreterTest
-
-after_success:
-  - coveralls --root .. -e googletest -e "Interpreter/src/test.cpp" -e "GraphicsLib/src/test.cpp" -e "build"
 
 notifications:
   email: cui@hellolw.com
