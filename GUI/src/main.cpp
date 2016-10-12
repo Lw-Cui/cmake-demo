@@ -16,7 +16,6 @@ int main(int argc, char *argv[]) {
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
-    LOG(INFO) << "I'm here...";
 
     while (window.isOpen()) {
         sf::Event event;
