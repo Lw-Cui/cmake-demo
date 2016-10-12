@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     START_EASYLOGGINGPP(argc, argv);
 
     std::cout << "Who am I ? where am I ?    Lei" << std::endl;
+    std::cout << "Who am I ? where am I ? fuck you LWei!   Lei" << std::endl;
 
     int i = foo();
     std::cout << str() + 1 << std::endl << i << std::endl;
