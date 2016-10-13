@@ -24,7 +24,8 @@
 这些教程可以在开发过程中进行学习，但预先看一下有一个直观的印象会好一些。
 
 * [Git](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)的基本教程
-* [缺陷跟踪](http://www.worldhello.net/gotgithub/04-work-with-others/050-issue.html)：我们细化任务分配的方式
+* [团队协作](http://www.worldhello.net/gotgithub/04-work-with-others/index.html)
+* 团队协作中的[缺陷跟踪](http://www.worldhello.net/gotgithub/04-work-with-others/050-issue.html)：我们细化任务分配的方式
 * [GoogleTest框架](https://github.com/google/googletest/blob/master/googletest/docs/Primer.md)的文档与教程
 * [easylogging++](https://github.com/easylogging/easyloggingpp)的文档与教程
 * [SFML图形库](http://www.sfml-dev.org/tutorials/2.4/)的教程
