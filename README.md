@@ -1,6 +1,6 @@
 # CMake Demo
 
-[![Build Status](https://travis-ci.org/Lw-Cui/cmake-demo.svg?branch=master)](https://travis-ci.org/Lw-Cui/cmake-demo)
+[![Build Status](https://travis-ci.org/Graphics-Interpreter/cmake-demo.svg?branch=master)](https://travis-ci.org/Graphics-Interpreter/cmake-demo)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat-square)](../master/LICENSE)
 
 
