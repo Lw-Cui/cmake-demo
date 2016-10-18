@@ -20,3 +20,9 @@ TEST(GraphicsLib, MockTest) {
     tmp.foo(4);
     tmp.foo(4);
 }
+
+int main(int argc, char *argv[]) {
+    testing::InitGoogleMock(&argc, argv);
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
